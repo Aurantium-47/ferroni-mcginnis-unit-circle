@@ -26,9 +26,9 @@ This is [Ferroni–McGinnis, Conjecture 4.5](https://arxiv.org/html/2202.11808v2
 
 1. **Start with capacities all equal to one.** A known weighted-Lah recurrence becomes a tridiagonal determinant. With $`T_{n-1}`$ the adjacency matrix of a path and $`B=\mathrm{diag}(1,1/2,\ldots,1/(n-1))`$, coefficient extraction gives
 
-   ```math
-   P_{n,k,\mathbf1}(z^2)=(n-1)!\,z^{n-k}[s^{k-1}]\det\bigl((z+z^{-1})I-T_{n-1}+sB\bigr).
-   ```
+```math
+P_{n,k,\mathbf1}(z^2)=(n-1)!\,z^{n-k}[s^{k-1}]\det\bigl((z+z^{-1})I-T_{n-1}+sB\bigr).
+```
 
 2. **Locate the determinant coefficient's roots.** An elementary kernel-vector argument and Gauss–Lucas put them on the real line. Principal-minor signs put them strictly between $`-2`$ and $`2`$. The substitution $`y=z+z^{-1}`$ then puts the original zeros on the unit circle.
 
