@@ -8,7 +8,7 @@ Source assessment date: **4 November 2026**. Links identify outside sources; the
 
 - [arXiv:2202.11808v2](https://arxiv.org/html/2202.11808v2), dated 23 May 2023.
 - [Published article](https://www.cambridge.org/core/journals/canadian-journal-of-mathematics/article/lattice-points-in-slices-of-prisms/BD4DAAE19B3FBECB840B658A189198ED), *Canadian Journal of Mathematics* 77(3), 2025, pp. 1013–1040; first published online 8 March 2024.
-- Definition 3.7 provides the capacity-compatible cycle weights. Conjecture 4.5 is the unit-circle assertion treated here. The source's cycle count is $m+1$; this manuscript calls it $k$.
+- Definition 3.7 provides the capacity-compatible cycle weights. Conjecture 4.5 is the unit-circle assertion treated here. The source's cycle count is $`m+1`$; this manuscript calls it $`k`$.
 - Strict positivity of every capacity is essential to the source statement and to the substitution used in this proof.
 
 ## Established weighted-Lah identities
