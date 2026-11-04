@@ -1,0 +1,68 @@
+Ferroni–McGinnis exact verification suite
+UTC: 2026-11-04T00:30:15+00:00
+Python 3.12.14; SymPy 1.14.0
+Python optimization level: 0 (checks remain active)
+
+[1/3] Direct-permutation symbolic identities and supplemental spectral checks
+PASS determinant identities and exact Q root counts: n=1, k=1..1
+PASS determinant identities and exact Q root counts: n=2, k=1..2
+PASS determinant identities and exact Q root counts: n=3, k=1..3
+PASS determinant identities and exact Q root counts: n=4, k=1..4
+PASS determinant identities and exact Q root counts: n=5, k=1..5
+PASS determinant identities and exact Q root counts: n=6, k=1..6
+PASS determinant identities and exact Q root counts: n=7, k=1..7
+PASS asymmetric subset identities: c=(1, 2, 3), k=1..3
+PASS asymmetric subset identities: c=(2, 3, 5), k=1..3
+PASS asymmetric subset identities: c=(1, 2, 3, 4), k=1..4
+
+[2/3] Independent subset-cycle DP and exact Sturm certificates
+PASS exact DP/Sturm: n=1, capacities=1..3 up to permutation, vectors=3, cumulative=3
+PASS exact DP/Sturm: n=2, capacities=1..3 up to permutation, vectors=6, cumulative=15
+PASS exact DP/Sturm: n=3, capacities=1..3 up to permutation, vectors=10, cumulative=45
+PASS exact DP/Sturm: n=4, capacities=1..3 up to permutation, vectors=15, cumulative=105
+PASS exact DP/Sturm: n=5, capacities=1..3 up to permutation, vectors=21, cumulative=210
+PASS exact DP/Sturm: n=6, capacities=1..3 up to permutation, vectors=28, cumulative=378
+PASS exact DP/Sturm asymmetric vector: c=(1, 1, 2, 3, 5, 8), k=1..6
+PASS exact DP/Sturm asymmetric vector: c=(1, 2, 3, 4, 5, 6, 7), k=1..7
+PASS exact DP/Sturm asymmetric vector: c=(2, 2, 2, 3, 3, 3, 5, 5), k=1..8
+PASS exact DP/Sturm asymmetric vector: c=(1, 2, 4, 8, 16), k=1..5
+
+[3/3] Boundary, multiplicity, negative-control, and input-validation regressions
+test_arbitrary_input_variable (test_regressions.CertificateTests.test_arbitrary_input_variable) ... ok
+test_even_degree_has_no_forced_root_removed (test_regressions.CertificateTests.test_even_degree_has_no_forced_root_removed) ... ok
+test_nonzero_constants_are_vacuously_certified (test_regressions.CertificateTests.test_nonzero_constants_are_vacuously_certified) ... ok
+test_odd_degree_forced_root (test_regressions.CertificateTests.test_odd_degree_forced_root) ... ok
+test_rational_coefficients_and_negative_scale (test_regressions.CertificateTests.test_rational_coefficients_and_negative_scale) ... ok
+test_reciprocal_polynomial_with_nonreal_transform_roots_fails (test_regressions.CertificateTests.test_reciprocal_polynomial_with_nonreal_transform_roots_fails) ... ok
+test_reciprocal_polynomial_with_roots_outside_interval_fails (test_regressions.CertificateTests.test_reciprocal_polynomial_with_roots_outside_interval_fails) ... ok
+test_repeated_roots_and_both_endpoints (test_regressions.CertificateTests.test_repeated_roots_and_both_endpoints) ... ok
+test_transform_identity_even_and_odd (test_regressions.CertificateTests.test_transform_identity_even_and_odd) ... ok
+test_empty_capacities_rejected (test_regressions.InputValidationTests.test_empty_capacities_rejected) ... ok
+test_invalid_cycle_counts_rejected (test_regressions.InputValidationTests.test_invalid_cycle_counts_rejected) ... ok
+test_invalid_determinant_sizes_rejected (test_regressions.InputValidationTests.test_invalid_determinant_sizes_rejected) ... ok
+test_nonexact_and_multivariate_polynomials_rejected (test_regressions.InputValidationTests.test_nonexact_and_multivariate_polynomials_rejected) ... ok
+test_noninteger_capacities_rejected (test_regressions.InputValidationTests.test_noninteger_capacities_rejected) ... ok
+test_noninteger_cycle_counts_rejected (test_regressions.InputValidationTests.test_noninteger_cycle_counts_rejected) ... ok
+test_nonpoly_input_rejected (test_regressions.InputValidationTests.test_nonpoly_input_rejected) ... ok
+test_nonreciprocal_polynomial_rejected (test_regressions.InputValidationTests.test_nonreciprocal_polynomial_rejected) ... ok
+test_zero_and_negative_capacities_rejected (test_regressions.InputValidationTests.test_zero_and_negative_capacities_rejected) ... ok
+test_zero_polynomial_rejected (test_regressions.InputValidationTests.test_zero_polynomial_rejected) ... ok
+test_all_singleton_cycles (test_regressions.SourcePolynomialTests.test_all_singleton_cycles) ... ok
+test_all_unit_singletons_are_constant (test_regressions.SourcePolynomialTests.test_all_unit_singletons_are_constant) ... ok
+test_constant_coefficients_count_permutations (test_regressions.SourcePolynomialTests.test_constant_coefficients_count_permutations) ... ok
+test_dp_matches_independent_permutation_enumeration (test_regressions.SourcePolynomialTests.test_dp_matches_independent_permutation_enumeration) ... ok
+test_empty_determinant (test_regressions.SourcePolynomialTests.test_empty_determinant) ... ok
+test_exact_integer_and_generator_inputs (test_regressions.SourcePolynomialTests.test_exact_integer_and_generator_inputs) ... ok
+test_one_cycle_factorial_multiplicity (test_regressions.SourcePolynomialTests.test_one_cycle_factorial_multiplicity) ... ok
+test_permutation_invariance (test_regressions.SourcePolynomialTests.test_permutation_invariance) ... ok
+test_single_nonunit_capacity (test_regressions.SourcePolynomialTests.test_single_nonunit_capacity) ... ok
+test_single_unit_capacity (test_regressions.SourcePolynomialTests.test_single_unit_capacity) ... ok
+test_subset_identity_at_boundary_cycle_counts (test_regressions.SourcePolynomialTests.test_subset_identity_at_boundary_cycle_counts) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.039s
+
+OK
+
+PASSED: 28 symbolic identities; 10 subset identities; 28 supplemental spectral checks; 404 independent DP/Sturm cases; 30 regression tests.
+JSON summary written: summary.json

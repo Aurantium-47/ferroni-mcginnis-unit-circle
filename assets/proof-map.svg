@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+<title id="title">A path-matrix route to the unit circle</title>
+<desc id="desc">Numerical illustrations of four unit-capacity roots on a circle, four roots of the doubled transform in the interval minus two to two, and eight unequal-capacity roots on a circle. The analytic proof uses a path determinant, real-root localization, and polarization.</desc>
+<rect width="1200" height="640" rx="24" fill="#101b2c"/>
+<style>text{font-family:Arial,Helvetica,sans-serif}.label{fill:#e9eef7;font-size:18px}.muted{fill:#aebed5;font-size:16px}.title{fill:#f6f8fc;font-weight:700}.axis{stroke:#7890ac;stroke-width:1.4}.panel{fill:#18273d;stroke:#30435d;stroke-width:1.2}</style>
+<text x="42" y="52" class="title" font-size="30">A path-matrix route to the unit circle</text>
+<text x="42" y="82" class="muted" >Ferroni–McGinnis Conjecture 4.5  ·  positive integer capacities</text>
+<rect x="32" y="108" width="344" height="422" rx="16" class="panel"/>
+<circle cx="60" cy="139" r="13" fill="#75bfff"/>
+<text x="60" y="145" class="title" font-size="16" text-anchor="middle" style="fill:#101b2c">1</text>
+<text x="82" y="145" class="title" font-size="14">UNIT CAPACITIES</text>
+<rect x="428" y="108" width="344" height="422" rx="16" class="panel"/>
+<circle cx="456" cy="139" r="13" fill="#c3a6ff"/>
+<text x="456" y="145" class="title" font-size="16" text-anchor="middle" style="fill:#101b2c">2</text>
+<text x="478" y="145" class="title" font-size="14">REAL-ROOT LOCALIZATION</text>
+<rect x="824" y="108" width="344" height="422" rx="16" class="panel"/>
+<circle cx="852" cy="139" r="13" fill="#ffc477"/>
+<text x="852" y="145" class="title" font-size="16" text-anchor="middle" style="fill:#101b2c">3</text>
+<text x="874" y="145" class="title" font-size="14">ARBITRARY CAPACITIES</text>
+<line x1="79" y1="308" x2="329" y2="308" class="axis"/>
+<line x1="204" y1="183" x2="204" y2="433" class="axis"/>
+<circle cx="204" cy="308" r="100" fill="none" stroke="#75bfff" stroke-width="2" opacity="0.8"/>
+<text x="315" y="328" class="muted" font-size="13">Re</text>
+<text x="213" y="196" class="muted" font-size="13">Im</text>
+<text x="304" y="298" class="muted" font-size="13">1</text>
+<circle cx="119.100560" cy="360.840184" r="5.5" fill="#75bfff" stroke="#101b2c" stroke-width="1.8"/>
+<circle cx="119.100560" cy="255.159816" r="5.5" fill="#75bfff" stroke="#101b2c" stroke-width="1.8"/>
+<circle cx="215.176812" cy="407.373431" r="5.5" fill="#75bfff" stroke="#101b2c" stroke-width="1.8"/>
+<circle cx="215.176812" cy="208.626569" r="5.5" fill="#75bfff" stroke="#101b2c" stroke-width="1.8"/>
+<text x="204" y="440" class="label" text-anchor="middle">n = 6, k = 2</text>
+<text x="204" y="468" class="muted" text-anchor="middle">c = (1, 1, 1, 1, 1, 1)</text>
+<text x="204" y="500" class="label" text-anchor="middle">4 zeros on |x| = 1</text>
+<line x1="502" y1="218" x2="551" y2="218" stroke="#c3a6ff" stroke-width="3"/>
+<line x1="551" y1="218" x2="600" y2="218" stroke="#c3a6ff" stroke-width="3"/>
+<line x1="600" y1="218" x2="649" y2="218" stroke="#c3a6ff" stroke-width="3"/>
+<line x1="649" y1="218" x2="698" y2="218" stroke="#c3a6ff" stroke-width="3"/>
+<circle cx="502" cy="218" r="7" fill="#c3a6ff"/>
+<circle cx="551" cy="218" r="7" fill="#c3a6ff"/>
+<circle cx="600" cy="218" r="7" fill="#c3a6ff"/>
+<circle cx="649" cy="218" r="7" fill="#c3a6ff"/>
+<circle cx="698" cy="218" r="7" fill="#c3a6ff"/>
+<text x="600" y="254" class="muted" text-anchor="middle">path adjacency matrix T₅</text>
+<line x1="468" y1="327" x2="732" y2="327" stroke="#c3a6ff" stroke-width="3"/>
+<circle cx="468" cy="327" r="5" fill="#18273d" stroke="#c3a6ff" stroke-width="2"/>
+<circle cx="732" cy="327" r="5" fill="#18273d" stroke="#c3a6ff" stroke-width="2"/>
+<circle cx="501.583925" cy="327" r="6" fill="#c3a6ff" stroke="#101b2c" stroke-width="1.6"/>
+<circle cx="563.729340" cy="327" r="6" fill="#c3a6ff" stroke="#101b2c" stroke-width="1.6"/>
+<circle cx="636.270660" cy="327" r="6" fill="#c3a6ff" stroke="#101b2c" stroke-width="1.6"/>
+<circle cx="698.416075" cy="327" r="6" fill="#c3a6ff" stroke="#101b2c" stroke-width="1.6"/>
+<text x="468" y="355" class="muted" text-anchor="middle">−2</text>
+<text x="600" y="355" class="muted" text-anchor="middle">0</text>
+<text x="732" y="355" class="muted" text-anchor="middle">2</text>
+<text x="600" y="400" class="label" text-anchor="middle">y = z + 1/z,   x = z²</text>
+<text x="600" y="440" class="label" text-anchor="middle">274y⁴ − 692y² + 184</text>
+<text x="600" y="468" class="muted" text-anchor="middle">real roots strictly in (−2, 2)</text>
+<text x="600" y="500" class="label" text-anchor="middle">Gauss–Lucas + minor signs</text>
+<line x1="871" y1="308" x2="1121" y2="308" class="axis"/>
+<line x1="996" y1="183" x2="996" y2="433" class="axis"/>
+<circle cx="996" cy="308" r="100" fill="none" stroke="#ffc477" stroke-width="2" opacity="0.8"/>
+<text x="1107" y="328" class="muted" font-size="13">Re</text>
+<text x="1005" y="196" class="muted" font-size="13">Im</text>
+<text x="1096" y="298" class="muted" font-size="13">1</text>
+<circle cx="900.902720" cy="338.927454" r="5.5" fill="#ffc477" stroke="#101b2c" stroke-width="1.8"/>
+<circle cx="900.902720" cy="277.072546" r="5.5" fill="#ffc477" stroke="#101b2c" stroke-width="1.8"/>
+<circle cx="939.189627" cy="390.295696" r="5.5" fill="#ffc477" stroke="#101b2c" stroke-width="1.8"/>
+<circle cx="939.189627" cy="225.704304" r="5.5" fill="#ffc477" stroke="#101b2c" stroke-width="1.8"/>
+<circle cx="996.000000" cy="408.000000" r="5.5" fill="#ffc477" stroke="#101b2c" stroke-width="1.8"/>
+<circle cx="996.000000" cy="208.000000" r="5.5" fill="#ffc477" stroke="#101b2c" stroke-width="1.8"/>
+<circle cx="1056.998561" cy="387.241249" r="5.5" fill="#ffc477" stroke="#101b2c" stroke-width="1.8"/>
+<circle cx="1056.998561" cy="228.758751" r="5.5" fill="#ffc477" stroke="#101b2c" stroke-width="1.8"/>
+<text x="996" y="440" class="label" text-anchor="middle">n = 4, k = 2</text>
+<text x="996" y="468" class="muted" text-anchor="middle">c = (1, 2, 3, 4)</text>
+<text x="996" y="500" class="label" text-anchor="middle">8 zeros on |x| = 1</text>
+<text x="600" y="568" class="label" text-anchor="middle" font-size="17">Known recurrence  →  path determinant  →  disk polarization  →  reciprocity</text>
+<text x="600" y="605" class="muted" text-anchor="middle" font-size="15">Dots are numerical illustrations. The general conclusion comes from the analytic proof.</text>
+</svg>

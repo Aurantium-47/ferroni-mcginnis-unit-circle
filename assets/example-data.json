@@ -1,0 +1,96 @@
+{
+  "purpose": "Numerical illustration only, not a proof or root certificate.",
+  "sympy": "1.14.0",
+  "examples": [
+    {
+      "capacities": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "cycle_count": 2,
+      "coefficients_ascending": [
+        274,
+        404,
+        444,
+        404,
+        274
+      ],
+      "roots_approximate": [
+        {
+          "real": "-0.848994400769642",
+          "imaginary": "-0.52840184278804"
+        },
+        {
+          "real": "-0.848994400769642",
+          "imaginary": "0.52840184278804"
+        },
+        {
+          "real": "0.111768123397379",
+          "imaginary": "-0.993734313884867"
+        },
+        {
+          "real": "0.111768123397379",
+          "imaginary": "0.993734313884867"
+        }
+      ]
+    },
+    {
+      "capacities": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "cycle_count": 2,
+      "coefficients_ascending": [
+        11,
+        20,
+        27,
+        31,
+        32,
+        31,
+        27,
+        20,
+        11
+      ],
+      "roots_approximate": [
+        {
+          "real": "-0.950972795363271",
+          "imaginary": "-0.309274542241947"
+        },
+        {
+          "real": "-0.950972795363271",
+          "imaginary": "0.309274542241947"
+        },
+        {
+          "real": "-0.568103728344305",
+          "imaginary": "-0.822956957465759"
+        },
+        {
+          "real": "-0.568103728344305",
+          "imaginary": "0.822956957465759"
+        },
+        {
+          "real": "0",
+          "imaginary": "-1"
+        },
+        {
+          "real": "0",
+          "imaginary": "1"
+        },
+        {
+          "real": "0.609985614616668",
+          "imaginary": "-0.792412487256938"
+        },
+        {
+          "real": "0.609985614616668",
+          "imaginary": "0.792412487256938"
+        }
+      ]
+    }
+  ]
+}

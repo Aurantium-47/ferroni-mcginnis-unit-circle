@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "started_at_utc": "2026-11-04T00:30:15+00:00",
+  "versions": {
+    "python": "3.12.14",
+    "sympy": "1.14.0"
+  },
+  "python_optimization_level": 0,
+  "arithmetic": "exact integer and rational arithmetic; no numerical root approximations",
+  "interpretation": "Finite regression checks support the analytic argument; they are not a proof.",
+  "identities": {
+    "determinant_identities": {
+      "count": 28,
+      "n_inclusive": [
+        1,
+        7
+      ],
+      "k": "1..n"
+    },
+    "asymmetric_subset_identities": {
+      "count": 10,
+      "capacities": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "k": "1..n"
+    },
+    "supplemental_determinant_root_counts": {
+      "count": 28,
+      "n_inclusive": [
+        1,
+        7
+      ],
+      "k": "1..n",
+      "interval": "(-2,2)"
+    }
+  },
+  "unit_circle": {
+    "count": 404,
+    "grid": {
+      "count": 378,
+      "n_inclusive": [
+        1,
+        6
+      ],
+      "capacity_values": [
+        1,
+        2,
+        3
+      ],
+      "up_to_coordinate_permutation": true,
+      "k": "1..n",
+      "by_n": [
+        {
+          "n": 1,
+          "vectors": 3,
+          "polynomials": 3
+        },
+        {
+          "n": 2,
+          "vectors": 6,
+          "polynomials": 12
+        },
+        {
+          "n": 3,
+          "vectors": 10,
+          "polynomials": 30
+        },
+        {
+          "n": 4,
+          "vectors": 15,
+          "polynomials": 60
+        },
+        {
+          "n": 5,
+          "vectors": 21,
+          "polynomials": 105
+        },
+        {
+          "n": 6,
+          "vectors": 28,
+          "polynomials": 168
+        }
+      ]
+    },
+    "asymmetric": {
+      "count": 26,
+      "capacities": [
+        [
+          1,
+          1,
+          2,
+          3,
+          5,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          5,
+          5
+        ],
+        [
+          1,
+          2,
+          4,
+          8,
+          16
+        ]
+      ],
+      "k": "1..n"
+    },
+    "root_count_method": "exact Sturm counts of square-free reciprocal-transform factors, with multiplicity",
+    "transformed_root_interval": "[-2,2]"
+  },
+  "regressions": {
+    "tests": 30,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "elapsed_seconds": 0.792
+}
